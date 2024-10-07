@@ -427,7 +427,7 @@ nav ul li:hover {
     flex-direction: column;
     direction: rtl;
     position: absolute;
-    right: 5%;
+    right: -105%;
     top: 3rem;
     background: rgba(255, 255, 255, 0.29);
     border-radius: 16px;
