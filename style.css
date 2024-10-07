@@ -312,7 +312,6 @@ nav ul li:hover {
     display: inline;
   }
   nav ul {
-    display: none;
     position: absolute;
     right: 5%;
     background: #f2f2f2;
