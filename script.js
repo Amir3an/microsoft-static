@@ -1,8 +1,10 @@
-const menu = document.querySelector("nav");
-const openMenu = document.querySelector(".burger-icon");
+document.addEventListener("DOMContentLoaded", function () {
+  const menu = document.querySelector("nav");
+  const openMenu = document.querySelector(".burger-icon");
 
-openMenu.addEventListener(onclick, () => {
-  if (menu.style.right >= "-105%") {
-    menu.style.right = "5%";
-  }
+  openMenu.addEventListener("click", () => {
+    if (menu.style.right >= "-105%") {
+      menu.style.right = "5%";
+    }
+  });
 });
