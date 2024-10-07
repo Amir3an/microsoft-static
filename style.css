@@ -404,6 +404,15 @@ nav ul li:hover {
   .FirstMenu {
     display: inline;
   }
+  .tuch-mobile {
+    width: 80%;
+    height: 100%;
+    background-color: rgba(255, 7, 7, 0.801);
+    z-index: 9;
+    opacity: 0.3;
+    position: absolute;
+
+  }
   nav {
     display: flex;
     align-items: center;
@@ -430,6 +439,7 @@ nav ul li:hover {
     height: 100%;
     border-right: 1px solid #ccc;
     padding: 30px;
+    z-index: 99;
   }
   nav ul li {
     color: black;
