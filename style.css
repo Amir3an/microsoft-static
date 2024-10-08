@@ -442,7 +442,7 @@ nav ul li:hover {
     z-index: 99;
   }
 
-  #burger:checked + ul {
+  .burger .line:checked ~ ul {
     right: 5%;
   }
 
