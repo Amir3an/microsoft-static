@@ -442,10 +442,6 @@ nav ul li:hover {
     z-index: 99;
   }
 
-  .line:checked ~ nav > ul {
-    right: 5%;
-  }
-
   nav ul li {
     color: black;
     font-size: 1rem;
