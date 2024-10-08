@@ -73,6 +73,11 @@ nav img {
   position: absolute;
 }
 
+.onclick{
+    background-color: #444444;
+    z-index: 999;
+}
+
 .burger .line:checked {
   width: 0;
   transition-delay: 100ms;

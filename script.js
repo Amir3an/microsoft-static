@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const menu = document.querySelector("ul");
-  const openMenu = document.querySelector(".burger");
+  const openMenu = document.querySelector(".onclick");
 
   openMenu.addEventListener("click", () => {
     if (menu.style.right == "-105%") {
