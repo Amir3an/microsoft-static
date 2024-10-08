@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const menu = document.querySelector(".ul");
-  const openMenu = document.querySelector(".burger-icon");
+  const menu = document.querySelector("ul");
+  const openMenu = document.querySelector(".onclick");
 
-  openMenu.addEventListener("checked", () => {
+  openMenu.addEventListener("click", () => {
     if (menu.style.right == "-105%") {
-      menu.style.right == "5%";
+      menu.style.right = "5%";
     } else {
-      menu.style.right == "-105%";
+      menu.style.right = "-105%";
     }
   });
 });
