@@ -1,12 +1,12 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//   const menu = document.querySelector(".ul");
-//   const openMenu = document.querySelector(".burger-icon");
+document.addEventListener("DOMContentLoaded", function () {
+  const menu = document.querySelector(".ul");
+  const openMenu = document.querySelector(".burger-icon");
 
-//   openMenu.addEventListener("checked", () => {
-//     if (menu.style.right == "-105%") {
-//       menu.style.right = "5%";
-//     } else {
-//       menu.style.right = "-105%";
-//     }
-//   });
-// });
+  openMenu.addEventListener("checked", () => {
+    if (menu.style.right == "-105%") {
+      menu.style.right == "5%";
+    } else {
+      menu.style.right == "-105%";
+    }
+  });
+});
