@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
   const menu = document.querySelector("ul");
-  const openMenu = document.querySelector(".onclick");
+  const openMenu = document.querySelector(".burger-icon");
+  const checkBox = document.querySelector(".line");
 
   openMenu.addEventListener("click", () => {
-    if (menu.style.right == "-105%") {
+    if (checkBox == "checked") {
       menu.style.right = "5%";
     } else {
       menu.style.right = "-105%";
