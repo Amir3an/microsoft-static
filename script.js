@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   openMenu.addEventListener("click", () => {
     if (menu.style.right == "-105%") {
-      menu.style.right = "5%";
+      menu.style.right = "0%";
     } else {
       menu.style.right = "-105%";
     }

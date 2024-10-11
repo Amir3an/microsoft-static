@@ -37,7 +37,7 @@ nav img {
 }
 
 .burger-icon > img {
-  width : 27px;
+  width: max-content;
   height: 27px;
   object-fit: cover;
   background-position: center;
@@ -374,14 +374,14 @@ nav ul li:hover {
     position: absolute;
     transition: right 0.5s;
     right: -105%;
-    top: 3rem;
+    top: 0;
     background: rgba(255, 255, 255, 0.29);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.6);
-    width: 50%;
+    width: 60%;
     height: 100%;
     border-right: 1px solid #ccc;
     padding: 30px;
