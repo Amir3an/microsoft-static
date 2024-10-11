@@ -3,7 +3,7 @@
 }
 
 html {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -23,6 +23,8 @@ body {
 
 nav {
   display: flex;
+  position: sticky;
+  top : 0.5rem;
   padding: 5px;
 }
 
