@@ -90,6 +90,9 @@ nav ul li a {
   margin-left: auto;
   display: none;
 }
+.tuch-mobile {
+  display: none;
+}
 
 span {
   position: absolute;
