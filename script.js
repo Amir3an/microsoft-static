@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const nav = document.querySelector("nav");
   const menu = document.querySelector("ul");
   const openMenu = document.querySelector(".burger");
   const button = document.querySelector(".tuch-mobile");

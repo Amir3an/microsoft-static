@@ -24,7 +24,7 @@ body {
 nav {
   display: flex;
   position: sticky;
-  top : 0.5rem;
+  top: 0.5rem;
   padding: 5px;
 }
 
@@ -92,6 +92,8 @@ nav ul li a {
 }
 .tuch-mobile {
   display: none;
+  border: none;
+  background: fixed;
 }
 
 span {
@@ -359,8 +361,6 @@ nav ul li:hover {
     display: none;
     width: 40%;
     height: 200%;
-    background: fixed;
-    border: none;
     z-index: 9;
     left: 0;
     opacity: 0.3;
