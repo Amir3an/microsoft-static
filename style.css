@@ -351,12 +351,15 @@ nav ul li:hover {
     display: inline;
   }
   .tuch-mobile {
-    width: 80%;
-    height: 100%;
-    background-color: rgba(255, 7, 7, 0.801);
+    display: none;
+    width: 40%;
+    height: 200%;
+    background: fixed;
+    border: none;
     z-index: 9;
+    left: 0;
     opacity: 0.3;
-    position: absolute;
+    position: fixed;
   }
   nav {
     display: flex;
@@ -371,7 +374,7 @@ nav ul li:hover {
     display: flex;
     flex-direction: column;
     direction: rtl;
-    position: absolute;
+    position: fixed;
     transition: right 0.5s;
     right: -105%;
     top: 0;

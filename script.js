@@ -1,12 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   const menu = document.querySelector("ul");
   const openMenu = document.querySelector(".burger");
+  const button = document.querySelector(".tuch-mobile");
 
   openMenu.addEventListener("click", () => {
-    if (menu.style.right == "-105%") {
-      menu.style.right = "0%";
-    } else {
-      menu.style.right = "-105%";
-    }
+    button.style.display = "inline";
+    menu.style.right = "0%";
+  });
+
+  button.addEventListener("click", () => {
+    button.style.display = "none";
+    menu.style.right = "-105%";
   });
 });
