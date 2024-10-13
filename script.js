@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   openMenu.addEventListener("click", () => {
     button.style.display = "inline";
     menu.style.right = "0%";
-  });
+  })
 
   button.addEventListener("click", () => {
     button.style.display = "none";
